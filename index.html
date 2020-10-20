@@ -1,3 +1,93 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html dir="auto" lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<title>My Page Title</title>
+
+	<meta name="description" content="My Page Description" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="icon" href="assets/favicon.png" />
+
+	<meta property="og:title" content="My Page Title" />
+	<meta property="og:description" content="My Page Description" />
+	<meta property="og:image" content="assets/og-image.png" />
+
+	<link rel="stylesheet" href="assets/tobi.css" />
+	<link rel="stylesheet" href="assets/style.css" />
+
+</head>
+
+<body>
+	<main>
+		<header class="app__header container">
+			<div class="app__logo-wrapper"> <img class="app__logo" src="content/image/r0hswndr2yveojb3e7ys.png"
+					alt="AR塔罗牌"></div>
+			<div class="app__infos">
+				<h1 class="app__name">AR塔罗牌</h1>
+				<p class="app__description">增强现实的AR塔罗牌占卜，您的专属定制塔罗牌工具。</p>
+				<div class="app__buttons app__buttons--desktop">
+					<a href="https://apps.apple.com/us/app/ar%E5%A1%94%E7%BD%97%E7%89%8C/id1534883936"
+						class="app__button-ios" target="_blank" title="下载">
+						<img src="assets/ios-badge.svg" alt="下载">
+					</a>
+				</div>
+			</div>
+		</header>
+		<div class="app__buttons app__buttons--mobile container">
+			<a href="https://apps.apple.com/us/app/ar%E5%A1%94%E7%BD%97%E7%89%8C/id1534883936" class="app__button-ios"
+				target="_blank" title="下载">
+				<img src="assets/ios-badge.svg" alt="下载">
+			</a>
+		</div>
+		<section class="app__screenshots app__section">
+			<div class="container">
+				<h2 class="app__section-title">预览</h2>
+			</div>
+			<div class="app__screenshots-wrapper container-desktop">
+				<div class="app__screenshots-list">
+					<a href="content/image/g4trpvkvvevwieets1po.png" class="lightbox">
+						<video controls autoplay muted loop src="content/image/preview.mp4" class="app__screenshot"
+							alt="" />
+					</a>
+					<a href="content/image/1242x2688bb.png" class="lightbox">
+						<img src="content/image/1242x2688bb.png" class="app__screenshot" alt="" />
+					</a>
+					<a href="content/image/g4trpvkvvevwieets1po.png" class="lightbox">
+						<img src="content/image/g4trpvkvvevwieets1po.png" class="app__screenshot" alt="" />
+					</a>
+				</div>
+			</div>
+		</section>
+		<section class="app__fulldescription app__section container">
+			<h2 class="app__section-title">AR + 塔罗牌</h2>
+			<div class="app__fulldescription-content">
+				<p>使用AR技术实现塔罗牌占卜新方式，精准解析。需自行准备韦特经典版塔罗卡牌，或从APP内链接购买实体卡牌。更多功能敬请期待。</p>
+
+			</div>
+		</section>
+	</main>
+	<footer class="footer">
+		<div class="container">
+			<div class="footer__container">
+				<p class="footer__love">
+					<script>document.write('&copy;' + (new Date()).getFullYear());</script>
+					<noscript>&copy;2020</noscript> All rights reserved
+					&mdash; Powered by <a href="https://t3mpl.n4no.com/" target="_blank"
+						title="T3MPL Editor">Vidocube</a>
+				</p>
+			</div>
+		</div>
+	</footer>
+
+	<script type="text/javascript" src="assets/tobi.min.js" />
+	</script>
+	<script>
+		window.onload = function () {
+			var tobi = new Tobi();
+		};
+	</script>
+
+</body>
+
+</html>
